@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
-    --blue: #007bff;
+    --blue: #bb00ff;
     --indigo: #6610f2;
     --purple: #6f42c1;
     --pink: #e83e8c;
@@ -39,6 +39,7 @@
 *::before,
 *::after {
     box-sizing: border-box;
+
 }
 
 html {
@@ -2437,7 +2438,7 @@ textarea.form-control.is-valid {
 
 .was-validated .custom-control-input:valid:focus:not(:checked)~.custom-control-label::before,
 .custom-control-input.is-valid:focus:not(:checked)~.custom-control-label::before {
-    border-color: #28a745;
+    border-color: #56795e;
 }
 
 .was-validated .custom-file-input:valid~.custom-file-label,
@@ -4458,6 +4459,8 @@ input[type="button"].btn-block {
     display: block;
     padding: 0.5rem 1rem;
 }
+
+
 
 .nav-link:hover,
 .nav-link:focus {
@@ -11143,3 +11146,7 @@ a.text-dark:focus {
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
+
+li::before{
+    list-style-type: none;
+}

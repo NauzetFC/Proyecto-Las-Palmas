@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    color: #0c0c0c;
+    color: #030303;
     background-color: #ffffff;
 }
 
@@ -97,7 +97,8 @@ body {
 .custom_nav-container .navbar-nav .nav-item .nav-link {
     margin: 10px 30px;
     padding: 0;
-    color: #0fcfdc;
+    /* menu */
+    color: #310fdc;
     text-align: center;
     position: relative;
     text-transform: uppercase;
@@ -112,7 +113,8 @@ body {
     left: -10px;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    background-color: #0fcfdc;
+    /* color del punto */
+    background-color: #310fdc;
     border-radius: 100%;
 }
 
@@ -124,6 +126,7 @@ body {
 .custom_nav-container .navbar-nav .nav-item.active .nav-link::before,
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link::before {
     background-color: #2a2132;
+
 }
 
 a,
@@ -176,6 +179,8 @@ a:focus {
     text-transform: uppercase;
 }
 
+
+
 .custom_nav-container {
     z-index: 99999;
     padding-top: 20px;
@@ -201,7 +206,7 @@ a:focus {
 
 /*sección del encabezado final*/
 
-/* sección deslizante */
+/* sección slider */
 .slider_section {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -391,7 +396,7 @@ a:focus {
 .about_section .box .detail-box a {
     display: inline-block;
     padding: 12px 60px;
-    background-color: #000000;
+    background-color: rgb(0, 0, 0);
     color: #ffffff;
     border-radius: 40px;
     text-transform: uppercase;
@@ -403,7 +408,7 @@ a:focus {
 }
 
 .portfolio_section {
-    background-color: #f8ffff;
+    background-color: #ffffff;
 }
 
 .portfolio_section .portfolio_container {
@@ -464,6 +469,7 @@ a:focus {
     left: 0;
     background-color: rgba(15, 207, 220, 0.8);
     z-index: 0;
+
 }
 
 .portfolio_section .portfolio_container .img-box:hover a {
@@ -560,7 +566,7 @@ a:focus {
     text-align: center;
     margin: 45px 20px 0 20px;
     padding: 45px 35px 15px 35px;
-    border: 1px solid #0fcfdc;
+    border: 1px solid #dc3b0f;
 }
 
 .achieve_section .achieve_container .box .img-box {
@@ -800,3 +806,4 @@ a:focus {
 }
 
 /*# sourceMappingURL=style.css.map */
+
